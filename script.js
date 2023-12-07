@@ -8,6 +8,7 @@ const extendHex = (shortHex) => {
 		if(asciiCode >= 65 && asciiCode <=90){
 			isCapital = true;
 		}
+		
 		// output = "#" += "a" + "a" => "#aa"
 		output += shortHex[i] + shortHex[i];
 		i++;
